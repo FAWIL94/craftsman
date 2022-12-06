@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import ch.zhaw.craftsman.model.Customer;
+import ch.zhaw.craftsman.model.CustomerCreateDTO;
 import ch.zhaw.craftsman.repository.CustomerRepository;
-import model.Customer;
-import model.CustomerCreateDTO;
 
 
 @RestController 

@@ -1,4 +1,4 @@
-package model;
+package ch.zhaw.craftsman.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -10,14 +10,18 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @Getter
 @NoArgsConstructor
-@Document("customer")
-
-public class Customer {
+@Document("craftsman")
+public class Craftsman {
     @Id
     private String id;
     @NonNull
-    private String email;
+    private String companyName;
     @NonNull
-    private String name;
-
+    private String street;
+    @NonNull
+    private String plz;
+    @NonNull
+    private String place;
+    @NonNull
+    private Double price;
 }
