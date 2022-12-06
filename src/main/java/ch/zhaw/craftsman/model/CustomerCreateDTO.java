@@ -1,4 +1,4 @@
-package model;
+package ch.zhaw.craftsman.model;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
